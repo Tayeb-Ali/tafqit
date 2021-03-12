@@ -6,36 +6,9 @@ use CodeIgniter\Config\BaseConfig;
 
 class App extends BaseConfig
 {
-	/**
-	 * --------------------------------------------------------------------------
-	 * Base Site URL
-	 * --------------------------------------------------------------------------
-	 *
-	 * URL to your CodeIgniter root. Typically this will be your base URL,
-	 * WITH a trailing slash:
-	 *
-	 *    http://example.com/
-	 *
-	 * If this is not set then CodeIgniter will try guess the protocol, domain
-	 * and path to your installation. However, you should always configure this
-	 * explicitly and never rely on auto-guessing, especially in production
-	 * environments.
-	 *
-	 * @var string
-	 */
 	public $baseURL = 'http://localhost:8080/';
 
-	/**
-	 * --------------------------------------------------------------------------
-	 * Index File
-	 * --------------------------------------------------------------------------
-	 *
-	 * Typically this will be your index.php file, unless you've renamed it to
-	 * something else. If you are using mod_rewrite to remove the page set this
-	 * variable so that it is blank.
-	 *
-	 * @var string
-	 */
+
 	public $indexPage = 'index.php';
 
 	/**
@@ -57,71 +30,16 @@ class App extends BaseConfig
 	 */
 	public $uriProtocol = 'REQUEST_URI';
 
-	/**
-	 * --------------------------------------------------------------------------
-	 * Default Locale
-	 * --------------------------------------------------------------------------
-	 *
-	 * The Locale roughly represents the language and location that your visitor
-	 * is viewing the site from. It affects the language strings and other
-	 * strings (like currency markers, numbers, etc), that your program
-	 * should run under for this request.
-	 *
-	 * @var string
-	 */
-	public $defaultLocale = 'en';
 
-	/**
-	 * --------------------------------------------------------------------------
-	 * Negotiate Locale
-	 * --------------------------------------------------------------------------
-	 *
-	 * If true, the current Request object will automatically determine the
-	 * language to use based on the value of the Accept-Language header.
-	 *
-	 * If false, no automatic detection will be performed.
-	 *
-	 * @var boolean
-	 */
+	public $defaultLocale = 'ar';
+
 	public $negotiateLocale = false;
 
-	/**
-	 * --------------------------------------------------------------------------
-	 * Supported Locales
-	 * --------------------------------------------------------------------------
-	 *
-	 * If $negotiateLocale is true, this array lists the locales supported
-	 * by the application in descending order of priority. If no match is
-	 * found, the first locale will be used.
-	 *
-	 * @var string[]
-	 */
 	public $supportedLocales = ['en'];
 
-	/**
-	 * --------------------------------------------------------------------------
-	 * Application Timezone
-	 * --------------------------------------------------------------------------
-	 *
-	 * The default timezone that will be used in your application to display
-	 * dates with the date helper, and can be retrieved through app_timezone()
-	 *
-	 * @var string
-	 */
-	public $appTimezone = 'America/Chicago';
 
-	/**
-	 * --------------------------------------------------------------------------
-	 * Default Character Set
-	 * --------------------------------------------------------------------------
-	 *
-	 * This determines which character set is used by default in various methods
-	 * that require a character set to be provided.
-	 *
-	 * @see http://php.net/htmlspecialchars for a list of supported charsets.
-	 *
-	 * @var string
-	 */
+	public $appTimezone = 'Africa/Khartoum';
+
 	public $charset = 'UTF-8';
 
 	/**
