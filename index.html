@@ -1,13 +1,71 @@
-<?= $this->extend('templates/app') ?>
 
-<?= $this->section('content') ?>
+<!doctype html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link rel="canonical" href="https://sudan4tech.com/"/>
+        <title>التفقيط | تحويل الأرقام الي حروف</title>
+    
+    <!-- Standard SEO -->            
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="referrer" content="no-referrer-when-downgrade">
+        <meta name="robots" content="all">
+        <meta name="description" content="هي عملية كتابة الأعداد نصاً بالكلمات بدلاً من الأرقام، وفائدة هذه العملية هو منع التلاعب بالارقام ودائماً ما يصاحب عملية التفقيط عبارة فقط لا غير لكي تقطع الطريق على أي عملية تلاعب بالارقام">
+        <meta name="keywords" content="هي عملية كتابة الأعداد نصاً بالكلمات بدلاً من الأرقام، وفائدة هذه العملية هو منع التلاعب بالارقام ودائماً ما يصاحب عملية التفقيط عبارة فقط لا غير لكي تقطع الطريق على أي عملية تلاعب بالارقام">
+                <meta name="geo.placename" content="sudan4tech.com">
+    
+    
+        <!-- Dublin Core basic info -->
+        <meta name="dcterms.Format" content="text/html">
+        <meta name="dcterms.Language" content="en">
+        <meta name="dcterms.Identifier" content="https://sudan4tech.com">
+        <meta name="dcterms.Relation" content="sudan4tech.com">
+        <meta name="dcterms.Publisher" content="sudan4tech.com">
+        <meta name="dcterms.Type" content="text/html">
+        <meta name="dcterms.Coverage" content="https://sudan4tech.com">
+        <meta name="dcterms.Title" content="موقع مختص بتحويل الأرقام الي حروف sudan4tech.com">
+        <meta name="dcterms.Subject" content="موقع مختص بتحويل الأرقام الي حروف sudan4tech.com,موقع مختص بتحويل الأرقام الي حروف sudan4tech.com">
+        <meta name="dcterms.Contributor" content="">
+        <meta name="dcterms.Description" content="موقع مختص بتحويل الأرقام الي حروف sudan4tech.com">
+
+        
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.rtl.min.css"
+          integrity="sha384-4dNpRvNX0c/TdYEbYup8qbjvjaMrgUPh+g4I03CnNtANuv+VAvPL6LqdwzZKV38G" crossorigin="anonymous">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">التفقيط</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">الرئسية</a>
+                </li>
+                <!--                <li class="nav-item">-->
+                <!--                    <a class="nav-link" href="#">Features</a>-->
+                <!--                </li>-->
+                <!--                <li class="nav-item">-->
+                <!--                    <a class="nav-link" href="#">Pricing</a>-->
+                <!--                </li>-->
+
+            </ul>
+        </div>
+    </div>
+</nav>
 
     <div class="container">
         <main>
             <div class="py-5 text-center">
                 <!--                <img class="d-block mx-auto mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72"-->
                 <!--                     height="57">-->
-                <h2>التفقيط</h2>
+                <h1>التفقيط</h1>
                 <p class="lead"> تحويل الأعداد المكتوبة رقماً إلى أعداد مكتوبة نصاً باللغتين العربية والإنجليزية
                 </p>
             </div>
@@ -16,7 +74,7 @@
                 <div class="card">
                     <div class="text-center card-body">
                         <label for="txt" class="form-label">أدخل العدد</label>
-                        <input dir="rtl" type="number" step="1" class="form-control" id="txt"
+                        <input dir="ltr" type="number" step="1" class="form-control" id="txt"
                                placeholder=""
                                min="-999999999" max="999999999" required>
                         <br>
@@ -78,7 +136,7 @@
                             </ul>
                             <p>لكن يفضل أن نقول تحويل الأعداد المكتوبة بالأرقام الى أعداد مكتوبة بالكلمات سواء باللغة
                                 العربية أو اللغة الإنجليزية.</p>
-                            <h2>تفقيط الأموال والعملات</h2>
+                            <h3>تفقيط الأموال والعملات</h2>
                             <p>يتمحور عمل التفقيط في الغالب بامور تتعلق بالمال واسواق المال والفوركس، فمثلاً عند القيام
                                 بمعاملة مالية مثل معاملات تحويل الأموال من دولار أمريكي إلى يورو اوروبي أو أي عملة
                                 عالمية
@@ -114,43 +172,7 @@
 
             <hr>
             <!--        share section-->
-            <section>
-                <div class="card text-center"><p>انشر الخدمة للأصدقاء عبر مواقع التواصل الإجتماعي</p>
-                    <div class=" flex-row flex-row-center"><a
-                                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnumbers.un-web.com%2F%3Fl%3Dar"
-                                target="blank"><img
-                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKAQMAAAC3/F3+AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjwAsAAB4AAdpxxYoAAAAASUVORK5CYII="
-                                    alt="facebook" class="socialicon socialicon-facebook"></a><a
-                                href="fb-messenger://share/?link=https%3A%2F%2Fnumbers.un-web.com%2F%3Fl%3Dar&amp;app_id=394268510998339"
-                                target="blank" class="sc-show mc-show lc-hide"><img
-                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKAQMAAAC3/F3+AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjwAsAAB4AAdpxxYoAAAAASUVORK5CYII="
-                                    alt="whatsapp" class="socialicon socialicon-fb-messenger"></a><a
-                                href="https://www.facebook.com/dialog/send?link=https%3A%2F%2Fnumbers.un-web.com%2F%3Fl%3Dar&amp;redirect_uri=https%3A%2F%2Fnumbers.un-web.com%2F%3Fl%3Dar&amp;app_id=394268510998339"
-                                target="blank" class="sc-hide mc-hide lc-show"><img
-                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKAQMAAAC3/F3+AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjwAsAAB4AAdpxxYoAAAAASUVORK5CYII="
-                                    alt="whatsapp" class="socialicon socialicon-fb-messenger"></a><a
-                                href="https://twitter.com/intent/tweet?text=تفقيط: تحويل الأرقام إلى كلمات&amp;url=https%3A%2F%2Fnumbers.un-web.com%2F%3Fl%3Dar"
-                                target="blank"><img
-                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKAQMAAAC3/F3+AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjwAsAAB4AAdpxxYoAAAAASUVORK5CYII="
-                                    alt="twitter" class="socialicon socialicon-twitter"></a><a
-                                href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fnumbers.un-web.com%2F%3Fl%3Dar"
-                                target="blank"><img
-                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKAQMAAAC3/F3+AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjwAsAAB4AAdpxxYoAAAAASUVORK5CYII="
-                                    alt="linkedin" class="socialicon socialicon-linkedin"></a><a
-                                href="whatsapp://send?text=https%3A%2F%2Fnumbers.un-web.com%2F%3Fl%3Dar"
-                                data-action="share/whatsapp/share" target="blank" class="sc-show mc-show lc-hide"><img
-                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKAQMAAAC3/F3+AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjwAsAAB4AAdpxxYoAAAAASUVORK5CYII="
-                                    alt="whatsapp" class="socialicon socialicon-whatsapp"></a><a
-                                href="https://web.whatsapp.com/send?text=https%3A%2F%2Fnumbers.un-web.com%2F%3Fl%3Dar"
-                                target="blank" class="sc-hide mc-hide lc-show"><img
-                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKAQMAAAC3/F3+AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjwAsAAB4AAdpxxYoAAAAASUVORK5CYII="
-                                    alt="whatsapp" class="socialicon socialicon-whatsapp"></a><a
-                                href="https://t.me/share/url?url=https%3A%2F%2Fnumbers.un-web.com%2F%3Fl%3Dar"
-                                target="blank" class="sc-show mc-show lc-hide"><img
-                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKAQMAAAC3/F3+AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjwAsAAB4AAdpxxYoAAAAASUVORK5CYII="
-                                    alt="whatsapp" class="socialicon socialicon-telegram"></a></div>
-                </div>
-            </section>
+        
             <!--        end share section-->
         </main>
     </div>
@@ -161,4 +183,16 @@
 
 
     </script>
-<?= $this->endSection() ?>
+
+
+<p>Google</p>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+<script src="assets/tafqit.js"></script>
+<script src="assets/lib.js"></script>
+
+
+</body>
+</html>
